@@ -1,7 +1,3 @@
-# GestureX-Master-Hand-Command-for-Robotic-Precision
-Certainly! Here’s the entire README formatted in Markdown:
-
-```markdown
 # GestureX: Master Hand Command for Robotic Precision
 
 ## Overview
