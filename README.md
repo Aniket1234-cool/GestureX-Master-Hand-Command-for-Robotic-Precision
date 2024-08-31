@@ -31,7 +31,7 @@ GestureX is a hand gesture-controlled robotic arm project that uses computer vis
 Clone the GestureX repository to your local machine:
 ```bash
 git clone https://github.com/Aniket1234-cool/GestureX-Master-Hand-Command-for-Robotic-Precision.git
-cd GestureX
+cd GestureX-Master-Hand-Command-for-Robotic-Precision.git
 ```
 
 ### 2. Set Up the Python Environment
