@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="text-align: center;">ROBOARM Automation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 style="text-align: center;">ROBOARM Automation Using Hand Gestures</h1>
+  <div class="button-container">
+  <button onclick="accessLink()">INITIATE</button>
+  </div>
+  <p id="output"></p>
+  <script>
+    function accessLink() {
+      var url = "http://127.0.0.1:5000"; // Replace with your desired URL
+      fetch(url, { mode: 'no-cors' }) // Optional: Add 'no-cors' for cross-origin requests
+        .catch(error => console.error(error)); // Handle errors silently (optional)
+      document.getElementById("output").textContent = "Command Sequence initiated Succesfully.";
+    }
+  </script>
+</body>
+</html>
